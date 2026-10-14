@@ -151,8 +151,6 @@ Execute the following command to run the stress test, save the results to a sepa
 jmeter -n -t [Path Folder\Test_Plan.jmx] -l [Path Folder\stress_test_worklogs.csv] -e -o [Path Folder\HTML_Performance_Stress_Test_Report]
 ```
 
-**Important:** All output report directories must be empty or not already exist before running the commands. Open the `index.html` file inside each generated report directory to review the performance metrics, response times, throughput, error rates, and other relevant statistics.
-
 **Note:** All two commands use the same `Test_Plan.jmx` file. To generate separate load and stress test reports, ensure the test plan is configured to execute only the intended test scenario for each command, or use separate JMX files for the load and stress tests.
 
 ### 🧰 Tools Used
