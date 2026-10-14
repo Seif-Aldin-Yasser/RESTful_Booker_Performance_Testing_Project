@@ -1,4 +1,4 @@
-# 💻 RESTful Booker - API Performance Testing Project
+# 💻 RESTful Booker - Performance Testing Project
 
 ## 🔗 Live Demo
 
