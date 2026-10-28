@@ -151,7 +151,7 @@ Execute the following command to run the stress test, save the results to a sepa
 jmeter -n -t [Path Folder\Test_Plan.jmx] -l [Path Folder\stress_test_worklogs.csv] -e -o [Path Folder\HTML_Performance_Stress_Test_Report]
 ```
 
-### Step 3: Run JMeter Test in Non-GUI Mode
+### Run JMeter Test in Non-GUI Mode
 
 Before diving into report reading, run your JMeter test in non-GUI mode. Use the following command:
 
