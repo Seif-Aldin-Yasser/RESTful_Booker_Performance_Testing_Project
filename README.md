@@ -150,6 +150,11 @@ Execute the following command to run the stress test, save the results to a sepa
 ```cmd
 jmeter -n -t [Path Folder\Test_Plan.jmx] -l [Path Folder\stress_test_worklogs.csv] -e -o [Path Folder\HTML_Performance_Stress_Test_Report]
 ```
+Before diving into report reading, run your JMeter test in non-GUI mode. Use the following command:
+
+```cmd
+jmeter -n -t [your_test_plan.jmx] -l [your_output_file.jtl]
+```
 
 **Note:** All two commands use the same `Test_Plan.jmx` file. To generate separate load and stress test reports, ensure the test plan is configured to execute only the intended test scenario for each command, or use separate JMX files for the load and stress tests.
 
