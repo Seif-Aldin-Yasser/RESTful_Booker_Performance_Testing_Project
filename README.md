@@ -118,7 +118,7 @@ Review the following metrics after each execution:
 ---
 
 
-## 📝 ave Results and Generate HTML Dashboards
+## 📝 Save Results and Generate HTML Dashboards
 
 ### General JMeter Command Syntax
 
