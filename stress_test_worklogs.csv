@@ -1,0 +1,41 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1793811324074,694,Login,200,OK,Load Test 1-3,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,694,0,550
+1793811323976,792,Login,200,OK,Load Test 1-2,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,792,0,648
+1793811324173,595,Login,200,OK,Load Test 1-4,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,595,0,451
+1793811324273,495,Login,200,OK,Load Test 1-5,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,495,0,351
+1793811323953,815,Login,200,OK,Load Test 1-1,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,815,0,671
+1793811324371,456,Login,200,OK,Load Test 1-6,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,456,0,314
+1793811324470,448,Login,200,OK,Load Test 1-7,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,448,0,296
+1793811324570,446,Login,200,OK,Load Test 1-8,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,446,0,291
+1793811324670,435,Login,200,OK,Load Test 1-9,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,435,0,289
+1793811324768,441,Login,200,OK,Load Test 1-10,text,true,,770,397,10,10,https://restful-booker.herokuapp.com/auth,441,0,299
+1793811326800,283,GetBookingIDs,200,OK,Load Test 1-5,text,true,,32059,318,10,10,https://restful-booker.herokuapp.com/booking,142,0,0
+1793811326800,288,GetBookingIDs,200,OK,Load Test 1-1,text,true,,32059,318,10,10,https://restful-booker.herokuapp.com/booking,144,0,0
+1793811326800,305,GetBookingIDs,200,OK,Load Test 1-2,text,true,,32059,318,10,10,https://restful-booker.herokuapp.com/booking,147,0,0
+1793811326800,306,GetBookingIDs,200,OK,Load Test 1-3,text,true,,32059,318,10,10,https://restful-booker.herokuapp.com/booking,154,0,0
+1793811326800,317,GetBookingIDs,200,OK,Load Test 1-4,text,true,,32059,318,10,10,https://restful-booker.herokuapp.com/booking,150,0,0
+1793811326829,289,GetBookingIDs,200,OK,Load Test 1-6,text,true,,32059,318,10,10,https://restful-booker.herokuapp.com/booking,143,0,0
+1793811326920,277,GetBookingIDs,200,OK,Load Test 1-7,text,true,,32078,318,10,10,https://restful-booker.herokuapp.com/booking,138,0,0
+1793811327017,281,GetBookingIDs,200,OK,Load Test 1-8,text,true,,32112,318,10,10,https://restful-booker.herokuapp.com/booking,138,0,0
+1793811327107,287,GetBookingIDs,200,OK,Load Test 1-9,text,true,,32131,318,10,10,https://restful-booker.herokuapp.com/booking,144,0,0
+1793811327211,282,GetBookingIDs,200,OK,Load Test 1-10,text,true,,32131,318,10,10,https://restful-booker.herokuapp.com/booking,140,0,0
+1793811329086,140,GetBookingByID,200,OK,Load Test 1-5,text,true,,926,321,10,10,https://restful-booker.herokuapp.com/booking/58,140,0,0
+1793811329091,142,GetBookingByID,200,OK,Load Test 1-1,text,true,,926,321,10,10,https://restful-booker.herokuapp.com/booking/58,142,0,0
+1793811329107,137,GetBookingByID,200,OK,Load Test 1-2,text,true,,926,321,10,10,https://restful-booker.herokuapp.com/booking/58,137,0,0
+1793811329108,138,GetBookingByID,200,OK,Load Test 1-3,text,false,"Test failed: text expected to contain /""{""checkout"":""2019-01-01"",""checkin"":""2018-01-01""}""/",926,321,10,10,https://restful-booker.herokuapp.com/booking/58,138,0,0
+1793811329119,142,GetBookingByID,200,OK,Load Test 1-4,text,false,"Test failed: text expected to contain /""true""/",926,321,10,10,https://restful-booker.herokuapp.com/booking/58,142,0,0
+1793811329120,141,GetBookingByID,200,OK,Load Test 1-6,text,false,"Test failed: text expected to contain /""111""/",926,321,10,10,https://restful-booker.herokuapp.com/booking/58,141,0,0
+1793811329200,139,GetBookingByID,200,OK,Load Test 1-7,text,true,,926,321,10,10,https://restful-booker.herokuapp.com/booking/58,139,0,0
+1793811329300,138,GetBookingByID,200,OK,Load Test 1-8,text,true,,926,321,10,10,https://restful-booker.herokuapp.com/booking/58,138,0,0
+1793811329397,140,GetBookingByID,200,OK,Load Test 1-9,text,false,"Test failed: text expected to contain /""true""/",926,321,10,10,https://restful-booker.herokuapp.com/booking/58,140,0,0
+1793811329495,137,GetBookingByID,200,OK,Load Test 1-10,text,true,,926,321,10,10,https://restful-booker.herokuapp.com/booking/58,137,0,0
+1793811331228,146,CreateBooking,200,OK,Load Test 1-5,text,true,,941,590,10,10,https://restful-booker.herokuapp.com/booking,146,0,0
+1793811331234,144,CreateBooking,200,OK,Load Test 1-1,text,true,,941,590,10,10,https://restful-booker.herokuapp.com/booking,144,0,0
+1793811331245,138,CreateBooking,200,OK,Load Test 1-2,text,true,,941,590,8,8,https://restful-booker.herokuapp.com/booking,138,0,0
+1793811331248,139,CreateBooking,200,OK,Load Test 1-3,text,true,,941,590,7,7,https://restful-booker.herokuapp.com/booking,139,0,0
+1793811331263,141,CreateBooking,200,OK,Load Test 1-6,text,true,,941,590,6,6,https://restful-booker.herokuapp.com/booking,141,0,0
+1793811331263,141,CreateBooking,200,OK,Load Test 1-4,text,true,,941,590,6,6,https://restful-booker.herokuapp.com/booking,141,0,0
+1793811331340,142,CreateBooking,200,OK,Load Test 1-7,text,true,,941,590,4,4,https://restful-booker.herokuapp.com/booking,142,0,0
+1793811331439,139,CreateBooking,200,OK,Load Test 1-8,text,true,,941,590,3,3,https://restful-booker.herokuapp.com/booking,139,0,0
+1793811331539,141,CreateBooking,200,OK,Load Test 1-9,text,true,,941,590,2,2,https://restful-booker.herokuapp.com/booking,141,0,0
+1793811331634,136,CreateBooking,200,OK,Load Test 1-10,text,true,,941,590,1,1,https://restful-booker.herokuapp.com/booking,136,0,0
