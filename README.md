@@ -119,8 +119,6 @@ Uses a standard **Thread Group** to maintain a sustained workload over an extend
 
 **Execution:** The Soak Test runs for 300 seconds with 10 virtual users and an infinite loop count, subject to the configured thread lifetime.
 
-**Note:** The test duration is 5 minutes, not 5 hours.
-
 ---
 
 ## 🌐 API Endpoints Tested
