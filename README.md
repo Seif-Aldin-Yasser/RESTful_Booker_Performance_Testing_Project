@@ -206,9 +206,9 @@ Users Account.csv
 2. Disable all other Thread Groups.
 3. Verify the four schedule rows in the Ultimate Thread Group configuration.
 4. Confirm the three spike periods:
-   - First Spike: `30` seconds.
-   - Second Spike: `90` seconds.
-   - Third Spike: `150` seconds.
+   - First Spike: `40` seconds.
+   - Second Spike: `120` seconds.
+   - Third Spike: `200` seconds.
 5. Verify the startup, hold, and shutdown times.
 6. Run the test separately.
 7. Review the results during each spike and recovery period.
