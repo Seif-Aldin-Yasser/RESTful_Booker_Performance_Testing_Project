@@ -11,7 +11,7 @@
 - ✅ **JMeter Test Plan** – Configures and organizes the performance testing scenarios.
 - ✅ **Load Test** – Simulates 10 virtual users with a 1-second ramp-up period and 1 loop.
 - ✅ **Stress Test** – Simulates 50 virtual users with a 100-second ramp-up period and 5 loops.
-- ✅ **Spike Test** – Uses Ultimate Thread Group to simulate three sudden workload increases, reaching 50 concurrent virtual users during each spike.
+- ✅ **Spike Test** – Uses Ultimate Thread Group to simulate three sudden workload increases, reaching 150 concurrent virtual users during each spike.
 - ✅ **Soak Test** – Simulates 10 virtual users continuously for 300 seconds (5 minutes) to evaluate system stability under sustained load.
 - ✅ **CSV Test Data** – Provides authentication data where configured.
 - ✅ **Performance Results** – Separate CSV/JTL results files and HTML dashboards for each test scenario.
@@ -68,10 +68,10 @@ Uses **Ultimate Thread Group** to simulate three sudden increases in workload an
 
 | Row / Phase | Start Threads Count | Initial Delay | Startup Time | Hold Load For | Shutdown Time |
 |---|---:|---:|---:|---:|---:|
-| Baseline | 5 | 0s | 5s | 240s | 5s |
-| Spike 1 | 45 | 30s | 3s | 30s | 5s |
-| Spike 2 | 45 | 90s | 3s | 30s | 5s |
-| Spike 3 | 45 | 150s | 3s | 30s | 5s |
+| Baseline | 10 | 0s | 5s | 300s | 5s |
+| Spike 1 | 30 | 40s | 3s | 30s | 5s |
+| Spike 2 | 75 | 120s | 3s | 30s | 5s |
+| Spike 3 | 150 | 200s | 5s | 30s | 5s |
 
 *All time values are in seconds.*
 
