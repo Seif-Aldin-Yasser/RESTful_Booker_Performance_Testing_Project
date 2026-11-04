@@ -80,9 +80,9 @@ Uses **Ultimate Thread Group** to simulate three sudden increases in workload an
 1. **Baseline:** Start with 10 virtual users.
 2. **First Spike:** Add 30 users after 40 seconds, reaching approximately 40 concurrent users.
 3. **Recovery:** The additional 30 users finish their scheduled period, returning the workload to the 10-user baseline.
-4. **Second Spike:** Add another 45 users after 90 seconds, reaching approximately 50 concurrent users.
-5. **Recovery:** Return to the 5-user baseline.
-6. **Third Spike:** Add another 45 users after 150 seconds, reaching approximately 50 concurrent users.
+4. **Second Spike:** Add another 75 users after 120 seconds, reaching approximately 85 concurrent users.
+5. **Recovery:** Return to the 10-user baseline.
+6. **Third Spike:** Add another 150 users after 200 seconds, reaching approximately 160 concurrent users.
 7. **Final Recovery:** The additional users finish, leaving the baseline workload.
 8. **Completion:** The baseline Thread Group finishes its scheduled execution.
 
